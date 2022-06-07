@@ -15,16 +15,9 @@
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
     "type-check": "tsc --pretty --noEmit"
   },
-  "workspaces": {
-    "nohoist": [
-      "gatsby",
-      "gatsby-*"
-    ]
-  },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "yarn run type-check"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
@@ -79,6 +72,7 @@
   },
   "dependencies": {
     "@artsy/palette": "^20.0.3",
+    "@artsy/palette-charts": "^19.0.3",
     "@babel/core": "^7.15.0",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
