@@ -24,22 +24,14 @@ workflows:
           requires:
             - yarn/workflow-queue
 
-      - yarn/lint:
-          requires:
-            - yarn/workflow-queue
-
-      - yarn/type-check:
-          requires:
-            - yarn/workflow-queue
-
       - yarn/run:
           name: build-docs
-          script: "build-docs"
+          script: "build"
           post-steps:
             - persist_to_workspace:
                 root: .
                 paths:
-                  - packages/palette-docs/public
+                  - public
           filters:
             branches:
               only: main
