@@ -7,7 +7,6 @@ import { Provider as StateProvider } from "unstated"
 import { MDXComponents } from "./components/MDXComponents"
 
 export const Boot = ({ element }) => {
-  console.log("testing deploy")
   return (
     <Location>
       {({ location }) => {
