@@ -24,14 +24,6 @@ workflows:
           requires:
             - yarn/workflow-queue
 
-      - yarn/lint:
-          requires:
-            - yarn/workflow-queue
-
-      - yarn/type-check:
-          requires:
-            - yarn/workflow-queue
-
       - yarn/run:
           name: build-docs
           script: "build-docs"
