@@ -21,7 +21,7 @@ open http://localhost:8000/admin
 
 ### Deployment
 
-Merges to master are automatically deployed to https://palette.artsy.net.
+Merges to `main` are automatically deployed to https://palette.artsy.net.
 
 ### Docs Architecture
 
