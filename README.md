@@ -58,3 +58,4 @@ Search within the Palette docs is implemented with [Algolia DocSearch](https://d
 2. The Palette docs site is configured to be crawled by Algolia in [their `algolia/docsearch-configs` project](https://github.com/algolia/docsearch-configs/blob/master/configs/artsy_palette.json).
 3. The [search box](https://github.com/artsy/palette-docs/blob/main/src/components/Sidebar/SearchBox.tsx#L13) on the docs site sends search text through Algolia's JavaScript, to hit the index built by crawling the Palette docs. See [this implementation PR](https://github.com/artsy/palette/pull/642).
 4. The search results are styled by [overriding Algolia's default styles](https://github.com/artsy/palette-docs/blob/main/src/components/Sidebar/algolia.css#L15).
+test
