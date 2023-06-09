@@ -81,7 +81,7 @@
     "babel-preset-gatsby": "^1.11.0",
     "d3-ease": "^1.0.5",
     "docz-utils": "^0.13.6",
-    "gatsby": "3.11.0",
+    "gatsby": "4.25.7",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-catch-links": "^3.11.0",
     "gatsby-plugin-force-trailing-slashes": "^1.0.4",
