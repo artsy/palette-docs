@@ -7,7 +7,7 @@ Docs for [Palette](https://github.com/artsy/palette), built on top of [Gatsby](h
 - Docs URL: [https://palette.artsy.net](https://palette.artsy.net)
 - Palette Github Repo: [https://github.com/artsy/palette](https://github.com/artsy/palette)
 - Storybook: [https://palette-storybook.artsy.net](https://palette-storybook.artsy.net)
-- Point People: [@damassi](https://github.com/damassi), [@dzucconi](https://github.com/dzucconi)
+- Point People: [@dzucconi](https://github.com/dzucconi)
 
 ### Development
 
